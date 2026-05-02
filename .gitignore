@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pkl
+*.index
+*.bin
+*.faiss
+customer_support_tickets_200k.csv
