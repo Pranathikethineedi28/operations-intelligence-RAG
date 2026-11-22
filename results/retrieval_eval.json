@@ -1,0 +1,37 @@
+{
+  "k": 5,
+  "results": {
+    "tfidf": {
+      "literal": {
+        "precision": 0.5633333333333334,
+        "hit": 0.9666666666666667,
+        "mrr": 0.7616666666666667,
+        "n": 60
+      },
+      "paraphrased": {
+        "precision": 0.35333333333333333,
+        "hit": 0.7,
+        "mrr": 0.5022222222222222,
+        "n": 30
+      }
+    },
+    "filtered(rules)+tfidf": {
+      "literal": {
+        "precision": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "n": 60
+      },
+      "paraphrased": {
+        "precision": 0.35333333333333333,
+        "hit": 0.7,
+        "mrr": 0.5022222222222222,
+        "n": 30
+      }
+    }
+  },
+  "random_precision": {
+    "literal": 0.02578333333333333,
+    "paraphrased": 0.015706666666666667
+  }
+}

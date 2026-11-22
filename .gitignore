@@ -6,3 +6,4 @@ __pycache__/
 *.bin
 *.faiss
 customer_support_tickets_200k.csv
+.pytest_cache/
